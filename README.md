@@ -58,7 +58,7 @@ Resultado obtenido:
 El método nos retorna un 1.
 
 -----TABLA DE USER-----
-D)Test de grabar usuario.
+E)Test de grabar usuario.
 id:5.
 Descripción:
 Se registran datos de manera correcta para que los grabe y nos retorne un valor, al igual que en el caso contrario.
@@ -68,6 +68,4 @@ Resultado Esperado:
 Tras realizar el grabado del usuario y que este tenga almacenamiento en la base de datos, no debera retornar un valor entero igual a 1 y un 0 en caso contrario.
 Resultado obtenido:
 El método nos retorna un 1.
-
-
 
