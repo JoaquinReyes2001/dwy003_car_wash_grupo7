@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+{%load static%}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car wash</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600" rel="stylesheet">
+    {%block link%}
+
+    {%endblock link%}
+</head>
+
+<body>
+    <div id="contenedor">
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="{%url 'IND'%}">Menú principal</a>
+                </li>
+                <li>
+                    <a href="{%url 'PAG2'%}">Misión y Visión</a>
+                </li>
+                <li>
+                    <a href="{%url 'PAG3'%}">Ubicación de la empresa</a>
+                </li>
+                <li>
+                    <a href="{%url 'PAG5'%}">Formulario de insumos</a>
+                </li>
+                <li>
+                    <a href="{%url 'PAG6'%}">Galería de fotos</a>
+                </li>
+                {%if user.is_authenticated%}
+                <li>
+                    <div id="nombreUsuarioHeader">
+
+                        <p>{{user.first_name}}
+                        {{user.last_name}}</p>
+
+                    </div>
+                </li>
+
+                <li>
+                    <a href="{%url 'LOGOUT' %}">Cerrar sesión</a>
+                </li>
+                {%else %}
+                <li>
+                    <a href="{%url 'LOGIN'%}">Iniciar sesión</a>
+                </li>
+                <li>
+                    <a href="{%url 'PAG4'%}">Formulario de usuarios</a>
+                </li>
+                {% endif %}
+            </ul>
+            <h1>
+                ⒸAR WASH
+            </h1>
+
+        </div>
+        <div class="nav">
+            <ul>
+                <ul>
+                    <li>
+                        {%block nav%}
+
+                        {%endblock nav%}
+                    </li>
+
+                </ul>
+            </ul>
+        </div>
+        <div id="contenido">
+            {%block contenido%}
+
+            {%endblock contenido%}
+        </div>
+        <div id="footer">
+            <div id="whatsapp">
+                <a href="https://chat.whatsapp.com/HRnYxp0IaxL5sia3re443E"> <img
+                        src="{%static 'img/whatsappLogo.png'%}">
+                </a>
+            </div>
+            <div id="facebook">
+                <a href="https://www.facebook.com/Car-wash-118173040024527/?modal=admin_todo_tour"> <img
+                        src="{%static 'img/facebookLogo.png'%}"> </a>
+            </div>
+            <div id="comentarioredes">
+                <h1>Siguenos en redes sociales</h1>
+            </div>
+        </div>
+    </div>
+    {%block scripts%}
+
+    {%endblock scripts%}
+</body>
+
+</html>

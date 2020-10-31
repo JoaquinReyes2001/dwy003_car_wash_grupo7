@@ -1,0 +1,1592 @@
+@media screen and (min-width:780px) and (max-width:2000px) {
+    /* monitor PC */
+    *{
+        margin:0;
+    }
+    #mensajedeinformacion{
+        color:white;
+    }
+    #contenedor{
+        height: 1350px;
+        width: 1350px;
+        margin:auto;
+        background-color:rgb(71, 71, 71);
+    }
+    .header{
+        background: url(https://www.ecestaticos.com/imagestatic/clipping/b24/4da/b244dab3b2adb7d369e41ea17934839d/bugatti-la-voiture-noire-el-coche-mas-caro-del-mundo.jpg?mtime=1579565836) no-repeat;
+        background-size: 1350px 450px;
+        width: 1350px;
+        height: 350px;
+        border:solid blueviolet;
+    }
+    .header h1{
+        text-align: center;
+        margin-right: 20px;
+        color:blueviolet;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+        width: 150px;
+        height: 30px;
+        margin-left: 600px;
+        
+   
+    }
+    .header a:hover{
+        background-color: blueviolet;
+        color: white;
+        width: 150px;
+        
+    }
+    .header ul li{
+        list-style:none;
+        display: inline-block;
+        width: 210px;
+    }
+    .header ul li a{
+        display: block;
+        text-decoration:none;
+        text-transform: uppercase;
+        color:#fff;
+        font-size: 20px;
+        font-family: 'Raleway',sans-serif;
+        letter-spacing: 2px;
+        font-weight: 600px;
+        padding:25px;   
+        width: 150px; 
+        margin-left: 50px;
+        
+    }
+    .nav{
+        background-color: black;
+        border:solid blueviolet;
+        width: 1350px;
+        height:50px;
+    
+    }
+    .nav ul li a img{
+           width: 50px;
+           height: 50px;
+           margin-left: 650px;
+    }
+    #contenido{
+        height: 700px;
+        width: 1350px;
+        border:solid blueviolet;
+        background-color: rgb(40, 41, 41);
+    
+    }
+    #section{
+        width:45%;
+        height:95%;
+        border:solid black;
+        border-radius: 15px;
+        padding:10px;
+        float: left;
+        margin-right: 15px;
+        background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg);
+       
+    }
+    #aside{
+        width:45%;
+        height:95%;
+        border:solid black;
+        border-radius: 15px;
+        padding:10px; 
+        float: right;
+        margin-left: 15px;
+        background:url(https://img.freepik.com/vector-gratis/fondo-abstracto-negro-vector_1340-8573.jpg?size=338&ext=jpg);
+    }
+    #footer{
+        height: 250px;
+        width: 1350px;
+        border:solid black;
+        background-color: black;
+        border:solid blueviolet;
+    
+    }
+    .container{
+        margin-top:5px;
+    }
+      
+      ul, li {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+      }
+      
+      ul.slider{
+        position: relative;
+        width: 600px;
+        height: 300px;
+        margin:auto;
+        
+      }
+      
+      ul.slider li {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          opacity: 0;
+          width: inherit;
+          height: inherit;
+          transition: opacity .5s;
+          background:#fff;
+          
+      }
+      
+      ul.slider li img{
+        width: 600px;
+        height: 300px;
+        object-fit: cover;
+        box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+        border: solid rgb(0, 0, 0);
+        background-color: blueviolet;
+    
+      }
+      
+      ul.slider li:first-child {
+          opacity: 1;
+      }
+      
+      ul.slider li:target {
+          opacity: 1;
+      }
+      .menu{
+        text-align: center;
+        margin: 20px;
+      }
+      
+      .menu li{
+        display: inline-block;
+        text-align: center;
+      }
+      .menu li a{
+        margin-top:10px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background:url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-shading-background-decoration-general-purpose-poster-background-image_9528.jpg);
+        padding: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+      }
+      #titulosectionfeliz h1{
+        margin-top:5px;
+        font-size:xx-large;
+        margin-left:150px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        color:lightskyblue;
+    }
+    #titulosectionfeliz img {
+        height: 100px;
+        width: 100px;
+        float:right;
+        margin-right: 120px;
+        
+        
+    }
+    #reseña{
+        width: 95%;
+        height: 70%;
+        background:url(https://static.vecteezy.com/system/resources/previews/000/600/537/non_2x/abstract-black-background-gradient-that-looks-modern-vector.jpg);
+        border:solid black;
+        margin:auto;
+        margin-top:10px;
+        color:white;
+    }
+    #titulosectionfeliz{
+        width: 95%;
+        height: 20%;
+        background:url(https://image.freepik.com/foto-gratis/resumen-degradado-negro-lujo-fondo-negro-vignette-backgr_1258-275.jpg);
+        border:solid black;
+        margin:auto;
+        margin-top:10px;
+    }
+    #whatsapp img{
+        margin-top:30px;
+        width: 75px;
+        height: 75px;
+        float:left;
+        margin-left:550px;
+        
+    
+       
+    }
+    #whatsapp img:hover{
+        filter: brightness(0.5);
+        transition:0.5s;
+        border:solid rgb(181, 248, 46) ;
+        border-radius:300px;
+ 
+     
+    }
+    #facebook img{
+        margin-top:30px;
+        width: 75px;
+        height: 75px;
+        float:left;
+        margin-left:100px;
+    
+    
+    }
+    #facebook img:hover{
+        filter: brightness(0.5);
+        transition:0.5s;
+        border:solid rgb(24, 151, 255);
+        border-radius:300px;
+
+    
+    }
+    #comentarioredes{
+        margin-top: 120px;
+        text-align: center;
+        color:white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    input[type="text"], input[type="date"], input[type="file"], input[type="number"], input[type="password"],input[type="email"]{
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid rgb(184, 181, 181);
+        margin-top: 15px;
+        margin-bottom:  15px;
+        box-sizing: border-box;
+        resize: vertical;
+        background-color: honeydew;
+    }
+    #formulariousuario {
+        width: 95%;
+        height: 550px;
+        border-radius: 5px;
+        background-color:rgb(24, 0, 24) ;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:blueviolet;
+    }
+    .btn {
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .btn-verde {
+        background-color: rgb(46, 172, 42);
+        margin-right: 10px;
+    }
+    
+    .btn-verde:hover {
+        background-color: rgb(22, 75, 20);  
+    }
+    
+    .btn-rojo {
+        background-color: rgb(219, 57, 57);
+    }
+    
+    .btn-rojo:hover {
+        background-color: rgb(87, 19, 19);
+    }
+    .imágenesformulariousuario{
+        background-color: blueviolet;
+        width: 600px;
+        height: 150px;
+        margin:auto;
+        border:solid black;
+        margin-top: 10px;
+        object-fit: cover;
+        box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    }
+    .imágenesformulariousuario img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .imágenesformularioinsumo{
+        background-color: blueviolet;
+        width: 600px;
+        height: 150px;
+        margin:auto;
+        border:solid black;
+        margin-top: 10px;
+        object-fit: cover;
+        box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    }
+    .imágenesformularioinsumo img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #section iframe{
+        margin-top:130px;
+    }
+    
+    .nav img{
+        height: 30px;
+        width: 50px;
+        margin-right:10px;
+        
+    }
+    .nav h1{
+        color:white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #mensajedereseña{
+        margin-top: 40px;
+    }
+    #reseña img{
+        width: 500px;
+        height: 300px;
+        margin-left: 40px;
+    }
+    #reseña p{
+        margin-left: 40px;
+    }
+    #formularioinsumo{
+        width: 95%;
+        height: 60%;
+        border-radius: 5px;
+        background-color:rgb(24, 0, 24);
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:blueviolet;
+    }
+    #contenidogaleria{
+        height: 700px;
+        width: 1350px;
+        background:url(https://i.pinimg.com/originals/47/6e/07/476e07b5271d936e199a7fd53faba004.gif)
+    
+    }
+    #contenidogaleria img{
+        height: 300px;
+        width: 316px;
+        margin-top:20px;
+        margin-left: 10px;
+        border:solid rgba(0, 0, 0, 0.774);
+        background-color: rgb(40, 41, 41);
+    
+    }
+    #contenidogaleria img:hover{
+        filter:saturate(150%);
+        border:solid blueviolet;
+        border-radius: 15px;
+        border-style: groove;
+       
+    }
+    #titulomisión{
+        font-size: 50px;
+        text-align: center;
+        color:rgb(210, 0, 252);
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom:solid rgb(210, 0, 252);
+    }
+    #titulovisión{
+        font-size: 50px;
+        text-align: center;
+        color:rgb(210, 0, 252);
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom:solid rgb(210, 0, 252);
+    }
+    #textomisión{
+        margin-top: 15px;
+        color:rgba(224, 223, 223, 0.986);
+        font-size: 18px;
+        border-bottom:solid rgb(210, 0, 252);
+        padding:8px;
+    }
+    #textovisión{
+        margin-top: 15px;
+        color:rgba(224, 223, 223, 0.986);
+        font-size: 18px;
+        padding:8px;
+        border-bottom:solid rgb(210, 0, 252);
+    }
+    #imágenmisión img{
+    margin-left:50px;
+    margin-top:50px;
+    width: 500px;
+    height: 300px;
+    border:solid blueviolet;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    
+    }
+    #imágenmisión img:hover{
+        -webkit-transform:scale(0.8);transform:scale(0.8);
+        
+    }
+    
+    
+    #imágenvisión img{
+    margin-left:50px;
+    margin-top:50px;
+    width: 500px;
+    height: 300px;
+    border:solid blueviolet;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    }
+    #imágenvisión img:hover{
+        -webkit-transform:scale(0.8);transform:scale(0.8);
+        
+    }
+    
+    #gifinsumo img{
+        width: 150px;
+        height: 150px;
+        margin-left:40px;
+        margin-top:  60px;
+      
+    }
+    #login{
+        width: 50%;
+        height: 50%;
+        border-radius: 5px;
+        background:url(https://images7.alphacoders.com/960/960785.jpg) no-repeat;
+        background-size: 700px 250px;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:indigo;
+        margin-left: 330px;
+        margin-top: 100px;
+        
+    }
+    #nombreUsuarioHeader{
+        display: block;
+        text-decoration:none;
+        text-transform: uppercase;
+        color:white;
+        font-size: 20px;
+        font-family: 'Raleway',sans-serif;
+        letter-spacing: 2px;  
+        margin-left:50px;
+    }
+    #nombreUsuarioHeader p:hover{
+        color:blueviolet;
+
+    }
+    
+    thead{
+        background-color: blueviolet;
+        border-bottom: solid 5px;
+        color:deeppink;
+
+        
+    }
+    th, td{
+        padding:5px;
+    }
+    td,th{
+        color:white;
+        padding:20px;
+        text-align: center;
+    }
+    td{
+        margin-left: 10px;
+    }
+    #main-container{
+        width: 600px;
+       
+        
+
+    }
+    table{
+       width: 1100px;
+       background-color: rgb(24, 0, 24); 
+       border-collapse: collapse;
+       margin-left:120px;
+  
+    }
+    
+    #fondolistado{
+        width:1342px;
+        height:100%;
+        border:solid black;
+        background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg);
+
+    }
+    #titulolistado{
+        color: blueviolet;
+        margin-left:120px;
+        margin-top:30px;
+    }
+    .btn-verdelistado{
+        background-color: rgb(46, 172, 42);
+        margin-right: 10px;
+        margin-left: 120px;
+    }
+    .btn-verdelistado:hover {
+        background-color: rgb(22, 75, 20);  
+    }
+    #gifMapa img{
+        height: 440px;
+        width: 600px;
+        margin-top: 130px;
+    
+ }
+}
+   
+
+
+
+@media screen and (min-width:480px) and (max-width:780px) {
+    /* tablet*/
+    *{
+        margin:0;
+    }
+    #mensajedeinformacion{
+        color:white;
+    }
+    #contenedor{
+        height: 1024px;
+        width: 780px;
+        margin:auto;
+        background-color:rgb(71, 71, 71);
+    }
+    .header{
+        background: url(https://s1.1zoom.me/b5050/489/BUGATTI_La_Voiture_Noire_Black_Black_background_561618_1920x1080.jpg) no-repeat;
+        background-size: 780px 250px;
+        width: 780px;
+        height: 250px;
+        border:solid blueviolet;
+    }
+    .header h1{
+        margin-left: 250px;
+        margin-top:30px;
+        color:blueviolet;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    }
+    .header a:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    .header ul li{
+        list-style:none;
+        display: inline-block;
+        width: 120px;
+    }
+    .header ul li a{
+        display: block;
+        text-decoration:none;
+        text-transform: uppercase;
+        color:#fff;
+        font-size: 15px;
+        font-family: 'Raleway',sans-serif;
+        letter-spacing: 2px;   
+    }
+    .nav{
+        background-color: black;
+        border:solid blueviolet;
+        width: 780px;
+        height:50px;
+    
+    }
+    .nav ul li a img{
+           width: 50px;
+           height: 50px;
+           margin-left: 370px;
+    }
+    #contenido{
+        height: 600px;
+        width: 780px;
+        border:solid blueviolet;
+        background-color: rgb(40, 41, 41);
+    
+    }
+    #section{
+        width:45%;
+        height:95%;
+        border:solid black;
+        border-radius: 15px;
+        padding:10px;
+        float: left;
+        margin-right: 15px;
+        background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg);
+       
+    }
+    #aside{
+        width:45%;
+        height:95%;
+        border:solid black;
+        border-radius: 15px;
+        padding:10px; 
+        float: right;
+        margin-left: 10px;
+        background:url(https://img.freepik.com/vector-gratis/fondo-abstracto-negro-vector_1340-8573.jpg?size=338&ext=jpg);
+    }
+    #footer{
+        height: 124px;
+        width: 780px;
+        border:solid black;
+        background-color: black;
+        border:solid blueviolet;
+    
+    }
+    .container{
+        margin-top:5px;
+    }
+      
+      ul, li {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+      }
+      
+      ul.slider{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin:auto;
+        
+      }
+
+
+      ul.slider li {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background:#fff;
+        
+    }
+    
+    ul.slider li img{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+      border: solid rgb(0, 0, 0);
+      background-color: blueviolet;
+  
+    }
+    
+    ul.slider li:first-child {
+        opacity: 1;
+    }
+    
+    ul.slider li:target {
+        opacity: 1;
+    }
+    .menu{
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .menu li{
+      display: inline-block;
+      text-align: center;
+    }
+    .menu li a{
+      margin-top:10px;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      background:url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-shading-background-decoration-general-purpose-poster-background-image_9528.jpg);
+      padding: 5px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      border-radius: 100%;
+    }
+    #titulosectionfeliz h1{
+      margin-top:5px;
+      font-size:xx-large;
+      margin-left:100px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: x-large;
+      color:lightskyblue;
+  }
+  #titulosectionfeliz img {
+      height: 75px;
+      width: 75px;
+      float:right;
+      margin-right: 120px;
+      
+      
+  }
+  #reseña{
+      width: 95%;
+      height: 70%;
+      background:url(https://static.vecteezy.com/system/resources/previews/000/600/537/non_2x/abstract-black-background-gradient-that-looks-modern-vector.jpg);
+      border:solid black;
+      margin:auto;
+      margin-top:5px;
+      color:white;
+  }
+  #titulosectionfeliz{
+      width: 95%;
+      height: 20%;
+      background:url(https://image.freepik.com/foto-gratis/resumen-degradado-negro-lujo-fondo-negro-vignette-backgr_1258-275.jpg);
+      border:solid black;
+      margin:auto;
+      margin-top:10px;
+  }
+  #whatsapp img{
+      margin-top:30px;
+      width: 50px;
+      height: 50px;
+      float:left;
+      margin-left:300px;
+      
+  
+     
+  }
+  #whatsapp img:hover{
+      filter: brightness(0.5);
+      transition:0.5s;
+      border:solid rgb(181, 248, 46) ;
+      border-radius:300px;
+ 
+   
+  }
+  #facebook img{
+      margin-top:30px;
+      width: 50px;
+      height: 50px;
+      float:left;
+      margin-left:100px;
+  
+  
+  }
+  #facebook img:hover{
+      filter: brightness(0.5);
+      transition:0.5s;
+      border:solid rgb(24, 151, 255);
+      border-radius:300px;
+    
+  
+  }
+  #comentarioredes{
+      font-size: 10px;
+      margin-top:80px;
+      text-align: center;
+      color:white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  input[type="text"], input[type="date"], input[type="file"], input[type="number"], input[type="password"],input[type="email"]{
+      width: 100%;
+      height: 23px;
+      border-radius: 5px;
+      border: 1px solid rgb(184, 181, 181);
+      margin-top: 15px;
+      margin-bottom:  15px;
+      box-sizing: border-box;
+      resize: vertical;
+      background-color: honeydew;
+  }
+  #formulariousuario {
+      width: 95%;
+      height: 470px;
+      border-radius: 5px;
+      background-color:rgb(24, 0, 24) ;
+      padding: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:blueviolet;
+  }
+  
+  .btn {
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 10px 10px;
+      border-radius: 5px;
+  }
+  
+  .btn-verde {
+      background-color: rgb(46, 172, 42);
+      margin-right: 10px;
+  }
+  
+  .btn-verde:hover {
+      background-color: rgb(22, 75, 20);  
+  }
+  
+  .btn-rojo {
+      background-color: rgb(219, 57, 57);
+  }
+  
+  .btn-rojo:hover {
+      background-color: rgb(87, 19, 19);
+  }
+  .imágenesformulariousuario{
+      background-color: blueviolet;
+      width: 300px;
+      height: 120px;
+      margin:auto;
+      border:solid black;
+      margin-top: 10px;
+      object-fit: cover;
+      box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+  }
+  .imágenesformulariousuario img{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .imágenesformularioinsumo{
+    background-color: blueviolet;
+    width: 300px;
+    height: 120px;
+    margin:auto;
+    border:solid black;
+    margin-top: 10px;
+    object-fit: cover;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    }
+    .imágenesformularioinsumo img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+  #section iframe{
+      margin-top:120px;
+      width: 350px;
+      height: 300px;
+
+      
+  }
+  
+  .nav img{
+      height: 30px;
+      width: 50px;
+      margin-right:10px;
+      
+  }
+  .nav h1{
+      color:white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  #mensajedereseña{
+      margin-top: 20px;
+  }
+  #reseña img{
+      width: 260px;
+      height: 180px;
+      margin-left: 40px;
+  }
+  #reseña p{
+      margin-left: 40px;
+  }
+  #formularioinsumo{
+      width: 95%;
+      height: 65%;
+      border-radius: 5px;
+      background-color:rgb(24, 0, 24);
+      padding: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:blueviolet;
+  }
+  #contenidogaleria{
+      height: 700px;
+      width: 780px;
+      background:url(https://i.pinimg.com/originals/47/6e/07/476e07b5271d936e199a7fd53faba004.gif)
+  
+  }
+  #contenidogaleria img{
+      height: 200px;
+      width: 175px;
+      margin-top:30px;
+      margin-left: 5px;
+      border:solid rgba(0, 0, 0, 0.774);
+      background-color: rgb(40, 41, 41);
+     
+  
+  }
+  #contenidogaleria img:hover{
+      filter:saturate(150%);
+      border:solid blueviolet;
+      border-radius: 15px;
+      border-style: groove;
+     
+  }
+  #titulomisión{
+      font-size: 35px;
+      text-align: center;
+      color:rgb(210, 0, 252);
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom:solid rgb(210, 0, 252);
+  }
+  #titulovisión{
+      font-size: 35px;
+      text-align: center;
+      color:rgb(210, 0, 252);
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom:solid rgb(210, 0, 252);
+  }
+  #textomisión{
+      margin-top: 10px;
+      color:rgba(224, 223, 223, 0.986);
+      font-size: 18px;
+      border-bottom:solid rgb(210, 0, 252);
+      padding:8px;
+  }
+  #textovisión{
+      margin-top: 10px;
+      color:rgba(224, 223, 223, 0.986);
+      font-size: 18px;
+      padding:8px;
+      border-bottom:solid rgb(210, 0, 252);
+  }
+  #imágenmisión img{
+  margin-left:50px;
+  margin-top:20px;
+  width: 250px;
+  height: 140px;
+  border:solid blueviolet;
+  box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+  
+  }
+  #imágenmisión img:hover{
+      -webkit-transform:scale(0.8);transform:scale(0.8);
+      
+  }
+  
+  
+  #imágenvisión img{
+  margin-left:50px;
+  margin-top:20px;
+  width: 250px;
+  height: 140px;
+  border:solid blueviolet;
+  box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+  }
+  #imágenvisión img:hover{
+      -webkit-transform:scale(0.8);transform:scale(0.8);
+      
+  }
+  
+  #gifinsumo img{
+      width: 150px;
+      height: 110px;
+      margin-left:90px;
+      margin-top:20px;
+  }
+  #login{
+    width: 60%;
+    height: 50%;
+    border-radius: 5px;
+    background:url(https://images7.alphacoders.com/960/960785.jpg) no-repeat;
+    background-size: 500px 200px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:indigo;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+}
+#nombreUsuarioHeader{
+    display: block;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 2px;  
+    margin-left:10px;
+}
+#nombreUsuarioHeader p:hover{
+    color:blueviolet;
+
+}
+
+thead{
+    background-color: blueviolet;
+    border-bottom: solid 5px;
+    color:deeppink;
+
+    
+}
+
+td,th{
+    color:white;
+    padding: 12px;
+    text-align: center;
+}
+#main-container{
+    width: 600px;
+
+}
+table{
+   width: 650px;
+   background-color: rgb(24, 0, 24); 
+   border-collapse: collapse;
+   margin-left: 65px;
+   
+}
+#fondolistado{
+    width:774px;
+    height:100%;
+    border:solid black;
+    background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg);
+   
+}
+ #titulolistado{
+     color: blueviolet;
+     margin-left:65px;
+     margin-top:40px;
+ }
+ .btn-verdelistado{
+     background-color: rgb(46, 172, 42);
+     margin-right: 10px;
+     margin-left: 65px;
+ }
+ .btn-verdelistado:hover {
+     background-color: rgb(22, 75, 20);  
+ }
+ #tituloformulariomodificacion{
+     font-size: 25px;
+ }
+ #gifMapa img{
+    height: 300px;
+    width: 350px;
+    margin-top: 120px;
+
+}
+
+
+}
+
+@media screen and (max-width:480px) {
+/* celular */
+*{
+    margin:0;
+}
+#contenedor{
+    height: 1200px;
+    width: 360px;
+    margin:auto;
+    background-color:rgb(71, 71, 71);
+}
+.header{
+    background: url(https://s1.1zoom.me/b5050/489/BUGATTI_La_Voiture_Noire_Black_Black_background_561618_1920x1080.jpg) no-repeat;
+    background-size: 360px 200px;
+    width: 360px;
+    height: 200px;
+    border:solid blueviolet;
+}
+.header h1{
+    text-align: center;
+    margin-right: 20px;
+    color:blueviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.header a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.header ul li{
+    list-style:none;
+    display: inline-block;
+    width:90px;
+    margin-left:20px;
+    border:solid blueviolet;
+    margin-top:4px;
+}
+.header ul li a{
+    display: block;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 10px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;  
+
+    
+}
+.nav{
+    background-color: black;
+    border:solid blueviolet;
+    width: 360px;
+    height:50px;
+
+}
+.nav ul li a img{
+       width: 50px;
+       height: 50px;
+       margin-left:160px;
+}
+#contenido{
+    height: 800px;
+    width: 360px;
+    border:solid blueviolet;
+    background-color: rgb(40, 41, 41);
+
+}
+#section{
+    margin-left: 5px;
+    width:95%;
+    height:48%;
+    border:solid black;
+    border-radius: 15px;
+    margin-right: 15px;
+    background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg);
+   margin-bottom: 10px;
+}
+#mensajedeinformacion{
+    color:white;
+    font-size: 13px;
+}
+#aside{
+    margin-left: 5px;
+    width:95%;
+    height:48%;
+    border:solid black;
+    border-radius: 15px;
+    background:url(https://img.freepik.com/vector-gratis/fondo-abstracto-negro-vector_1340-8573.jpg?size=338&ext=jpg);
+}
+#footer{
+    height: 150px;
+    width: 360px;
+    border:solid black;
+    background-color: black;
+    border:solid blueviolet;
+
+}
+.container{
+    margin-top:5px;
+}
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    margin:auto;
+    
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+      
+  }
+  
+  ul.slider li img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+    border: solid rgb(0, 0, 0);
+    background-color: blueviolet;
+
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1;
+  }
+  
+  ul.slider li:target {
+      opacity: 1;
+  }
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background:url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-shading-background-decoration-general-purpose-poster-background-image_9528.jpg);
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  #titulosectionfeliz h1{
+    margin-top:3px;
+    font-size:15px;
+    margin-left:130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:lightskyblue;
+}
+#titulosectionfeliz img {
+    height: 20px;
+    width: 30px;
+    float:right;
+    margin-right: 70px;
+    
+    
+}
+#reseña{
+    width: 95%;
+    height: 70%;
+    background:url(https://static.vecteezy.com/system/resources/previews/000/600/537/non_2x/abstract-black-background-gradient-that-looks-modern-vector.jpg);
+    border:solid black;
+    margin:auto;
+    margin-top:10px;
+    color:white;
+}
+#titulosectionfeliz{
+    width: 95%;
+    height: 10%;
+    background:url(https://image.freepik.com/foto-gratis/resumen-degradado-negro-lujo-fondo-negro-vignette-backgr_1258-275.jpg);
+    border:solid black;
+    margin:auto;
+    margin-top:10px;
+}
+#whatsapp img{
+    margin-top:10px;
+    width: 50px;
+    height: 50px;
+    float:left;
+    margin-left:80px;
+    
+
+   
+}
+#whatsapp img:hover{
+    filter: brightness(0.5);
+    transition:0.5s;
+    border:solid rgb(181, 248, 46) ;
+    border-radius:300px;
+
+ 
+}
+#facebook img{
+    margin-top:10px;
+    width: 50px;
+    height: 50px;
+    float:left;
+    margin-left:100px;
+
+
+}
+#facebook img:hover{
+    filter: brightness(0.5);
+    transition:0.5s;
+    border:solid rgb(24, 151, 255);
+    border-radius:300px;
+
+
+}
+#comentarioredes{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input[type="text"], input[type="date"], input[type="file"], input[type="number"], input[type="password"],input[type="email"]{
+    width: 100%;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 181, 181);
+    margin-top: 5px;
+    margin-bottom:  5px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: honeydew;
+}
+#formulariousuario {
+    width: 95%;
+    height: 270px;
+    border-radius: 5px;
+    background-color:rgb(24, 0, 24) ;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
+    font-size: 10px;
+}
+.btn {
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.btn-verde {
+    background-color: rgb(46, 172, 42);
+    margin-right: 10px;
+}
+
+.btn-verde:hover {
+    background-color: rgb(22, 75, 20);  
+}
+
+.btn-rojo {
+    background-color: rgb(219, 57, 57);
+}
+
+.btn-rojo:hover {
+    background-color: rgb(87, 19, 19);
+}
+.imágenesformulariousuario{
+    background-color: blueviolet;
+    width: 300px;
+    height: 75px;
+    margin:auto;
+    border:solid black;
+    margin-top: 10px;
+    object-fit: cover;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+}
+.imágenesformulariousuario img{
+    width: 100%;
+    height: 100%;
+    
+}
+.imágenesformularioinsumo{
+    background-color: blueviolet;
+    width: 300px;
+    height: 75px;
+    margin:auto;
+    border:solid black;
+    margin-top: 10px;
+    object-fit: cover;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+}
+.imágenesformularioinsumo img{
+    width: 100%;
+    height: 100%;
+    
+}
+#section iframe{
+    margin-top:20px;
+    width: 300px;
+    height: 350px;
+    margin-left:20px;
+}
+
+.nav img{
+    height: 30px;
+    width: 50px;
+    margin-right:10px;
+    
+}
+.nav h1{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+#mensajedereseña{
+    margin-top: 5px;
+    font-size: 13px;
+}
+#reseña img{
+    width: 240px;
+    height: 100px;
+    margin-left: 40px;
+}
+#reseña p{
+    margin-left: 40px;
+    font-size: 13px;
+}
+#formularioinsumo{
+    margin-top:4px;
+    margin-left: 6px;
+    width: 90%;
+    height: 65%;
+    border-radius: 5px;
+    background-color:rgb(24, 0, 24);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
+}
+#contenidogaleria{
+    height: 800px;
+    width: 360px;
+    background:url(https://i.pinimg.com/originals/47/6e/07/476e07b5271d936e199a7fd53faba004.gif)
+
+}
+#contenidogaleria img{
+    height: 100px;
+    width: 100px;
+    margin-top:80px;
+    margin-left: 10px;
+    border:solid rgba(0, 0, 0, 0.774);
+    background-color: rgb(40, 41, 41);
+
+}
+#contenidogaleria img:hover{
+    filter:saturate(150%);
+    border:solid blueviolet;
+    border-radius: 15px;
+    border-style: groove;
+   
+}
+#titulomisión{
+    font-size: 35px;
+    text-align: center;
+    color:rgb(210, 0, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:solid rgb(210, 0, 252);
+}
+#titulovisión{
+    font-size: 35px;
+    text-align: center;
+    color:rgb(210, 0, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:solid rgb(210, 0, 252);
+}
+#textomisión{
+    margin-top: 5px;
+    color:rgba(224, 223, 223, 0.986);
+    font-size: 13px;
+    border-bottom:solid rgb(210, 0, 252);
+    padding:8px;
+}
+#textovisión{
+    margin-top: 5px;
+    color:rgba(224, 223, 223, 0.986);
+    font-size: 13px;
+    padding:8px;
+    border-bottom:solid rgb(210, 0, 252);
+}
+#imágenmisión img{
+    margin-left:50px;
+    margin-top:7px;
+    width: 200px;
+    height: 100px;
+    border:solid blueviolet;
+    box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+
+}
+#imágenmisión img:hover{
+    -webkit-transform:scale(0.8);transform:scale(0.8);
+    
+}
+
+#imágenvisión img{
+margin-left:50px;
+margin-top:7px;
+width: 200px;
+height: 100px;
+border:solid blueviolet;
+box-shadow:5px 10px rgba(150, 18, 211, 0.164);
+}
+#imágenvisión img:hover{
+    -webkit-transform:scale(0.8);transform:scale(0.8);
+    
+}
+
+#gifinsumo img{
+    margin-top: 20px;
+    width: 500x;
+    height: 50px;
+    margin-left:110px;
+    
+}
+#login{
+    width: 60%;
+    height: 50%;
+    border-radius: 5px;
+    background:url(https://images7.alphacoders.com/960/960785.jpg) no-repeat;
+    background-size: 500px 200px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:indigo;
+    margin-top: 150px;
+    margin-left: 70px;
+    
+}
+#nombreUsuarioHeader{
+    display: block;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 10px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 2px;  
+    margin-left:10px;
+}
+#nombreUsuarioHeader p:hover{
+    color:blueviolet;
+
+}
+
+thead{
+    background-color: blueviolet;
+    border-bottom: solid 5px;
+    color:deeppink;
+
+    
+}
+
+td,th{
+    color:white;
+    text-align: center;
+    font-size: 11px;
+}
+#main-container{
+    width: 600px;
+
+}
+table{
+   width: 100px;
+   background-color: rgb(24, 0, 24); 
+   border-collapse: collapse;
+   height: 300px;
+   margin-left: 10px;
+   
+}
+#fondolistado{
+    width:353px;
+    height:100%;
+    border:solid black;
+    background:url(https://image.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg)
+   
+}
+ #titulolistado{
+     color: blueviolet;
+     margin-left:10px;
+     margin-top:50px;
+     font-size: 20px;
+ }
+ .btn-verdelistado{
+     background-color: rgb(46, 172, 42);
+     margin-right: 10px;
+     margin-left: 10px;
+ }
+ .btn-verdelistado:hover {
+     background-color: rgb(22, 75, 20);  
+ }
+ #tituloformulariomodificacion{
+     font-size: 25px;
+ }
+ #tituloformularioinsumo{
+     font-size: 20px;
+     margin-bottom: 5px;
+
+ }
+ #gifMapa img{
+    height: 330px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+}
+
+
+
+
+

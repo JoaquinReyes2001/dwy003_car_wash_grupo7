@@ -1,0 +1,25 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block link%}
+<link rel="stylesheet" href="{%static 'dist/css/lightbox.css'%}">
+{%endblock link%}
+{%block nav%}
+<a href="#footer"><img src="{%static 'img/TelefonoNavegación.png'%}"></a>
+
+{%endblock nav%}
+{%block contenido%}
+<div id="contenidogaleria">
+    <div class="contenedorimagenes">
+        {% for galeria in lista_Galeria %}
+        <a href="{{galeria.imagen.url}}" data-lightbox="autos" data-title="{{galeria.descripcion}}">
+            <img src="{{galeria.imagen.url}}">
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{%endblock contenido%}
+
+
+{%block scripts%}
+<script src="{%static 'dist/js/lightbox-plus-jquery.min.js' %}"></script>
+{%endblock scripts%}

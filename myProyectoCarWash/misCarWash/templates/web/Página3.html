@@ -1,0 +1,23 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block nav%}
+<marquee>
+    <h1><img src="{%static 'img/IconoUbicación.png'%}">Los Talaveras 13, Santiago, Ñuñoa, Región Metropolitana</h1>
+</marquee>
+{%endblock nav%}
+
+{%block contenido%}
+<div id="section">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53260.21911553085!2d-70.59084921498335!3d-33.45546253951048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf251b4a53b5%3A0xea6fd49ed930ad14!2sFull%20Cleaning%20Car%20Wash!5e0!3m2!1ses!2scl!4v1599278944999!5m2!1ses!2scl"
+        width="600" height="438" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+</div>
+<div id="aside">
+   <div id="gifMapa">
+     <img src="{%static 'img/giftmapa.gif'%}">
+
+   </div>
+</div>
+
+{%endblock contenido%}

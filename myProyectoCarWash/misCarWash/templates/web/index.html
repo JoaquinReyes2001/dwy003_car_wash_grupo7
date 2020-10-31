@@ -1,0 +1,76 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block nav%}
+<a href="#footer"><img src="{%static 'img/TelefonoNavegación.png'%}"></a>
+
+{%endblock nav%}
+{%block contenido%}
+<div id="section">
+    <div class="container">
+        <ul class="slider">
+         
+            <li id="slide1">
+                {% for car1 in lista_Slider1 %}
+                    <img src="{{car1.imagen.url}}" />
+                {% endfor %}
+            </li>
+        
+            <li id="slide2">
+                {% for car2 in lista_Slider2 %}
+                     <img src="{{car2.imagen.url}}" />
+                {% endfor %}
+            </li>
+            <li id="slide3">
+                {% for car3 in lista_Slider3 %}
+                     <img src="{{car3.imagen.url}}" />
+                 {% endfor %}
+            </li>
+        
+        </ul>
+
+        <ul class="menu">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+        </ul>
+        <div id=mensajedeinformacion>
+            <strong>Herramientas de limpieza</strong>
+            La empresa cuenta con servicios de encerado de chasis,limpieza solo
+            interna, spray para neumáticos, pulverización de agua con espuma para la limpieza del motor,
+            hidrolavado externo y servicio completo donde incluye lavado del motor con pulveri-
+            zación,
+            hidrolavado a la parte externa del vehículo y limpieza interna con paños a los asien
+            -tos,
+            cobertura, volante, etc.
+
+        </div>
+
+    </div>
+</div>
+<div id="aside">
+    <div id="titulosectionfeliz">
+        <h1>Cliente feliz<img src="{%static 'img/AutoNegro.png'%}"></h1>
+
+    </div>
+    <div id=reseña>
+        <p>⭐⭐⭐Juan Alfredo Torres Campos</p>
+        <img src="{%static 'img/cliente.jpg'%}">
+        <div id=mensajedereseña>
+            Con mi nieta quedamos fascinados "la mejor empresa de lavado de autos de chile",
+            cuenta con un personal delicado al momento de lavar el vehículo donde se preocupa de no dejar manchas de
+            espuma ni limpia vidrios,
+            además, los productos son de calidad y 100% certi-
+            ficados. El precio es muy accesible y son muy amables puesto que responden a cualquier duda con respecto
+            a los servicios. ¡Me
+            entregaron mi auto como nuevo!
+
+        </div>
+    </div>
+</div>
+{%endblock contenido%}

@@ -1,0 +1,57 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block nav%}
+<a href="#footer"><img src="{%static 'img/TelefonoNavegación.png'%}"></a>
+
+{%endblock nav%}
+{%block contenido%}
+<div id="section">
+    <script src="{%static 'js/formularioinsumo.js'%}"></script>
+    <div id="formularioinsumo">
+    <h1 id="tituloformulariomodificacion">Formulario de modificación de insumos</h1>
+        <form action="{%url 'MODIFICAR' %}" method="POST" onsubmit="return validarFormularioInsumo()">
+            {% csrf_token %}
+            <label for="txtNombreInsumo">Nombre:</label>
+            <input type="text" value="{{insumo.nombre}}"  name="txtNombreInsumo" id="txtNombreInsumo" minlength="3" maxlength="120" required>
+
+            <label for="txtPrecioInsumo">Precio:</label>
+            <input type="number"  value="{{insumo.precio}}" name="txtPrecioInsumo" id="txtPrecioInsumo" min="1" required>
+
+            <label for="txtDescripcion">Descripcion:</label>
+            <input type="text"  value="{{insumo.descripcion}}" name="txtDescripcion" id="txtDescripcion" minlength="3" maxlength="200">
+
+            <label for="txtStock">stock:</label>
+            <input type="number" value="{{insumo.stock}}" name="txtStock" id="txtStock" min="0" required>
+            <script>
+                function ir() {
+                    location.href = '/lista_insumos/';
+                }
+            </script>
+            <input class="btn btn-verde" value="Modificar" type="submit" id="btnModifcar">
+            <input class="btn btn-verde" value="Listado Insumos" type="button" onclick="ir()"  id="btnListadoInsumos">
+        
+        </form>
+    </div>
+    
+    <div>
+        <div id="gifinsumo">
+            <img src="{%static 'img/limpiezamanguera.gif'%}">
+        </div>
+    </div>
+</div>
+<div id="aside">
+    <div class="imágenesformularioinsumo">
+        <img src="{%static 'img/sonax2.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/Perfume.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/Shampoo.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/sonax.jpg'%}">
+    </div>
+</div>
+
+{%endblock contenido%}

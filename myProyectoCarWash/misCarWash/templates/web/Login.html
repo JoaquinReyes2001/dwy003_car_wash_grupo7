@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+{%load static%}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de acceso</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body style="background:url(https://www.xtrafondos.com/wallpapers/estrellas-en-el-universo-morado-4465.jpg) no-repeat;background-size:100% 1350px;">
+     <div id="login" >
+        <form action="" method="post" onsubmit="">
+            {% csrf_token %}
+            <label for="txtNombreUsuario">Nombre de usuario:</label>
+            <input type="text" name="txtNombreUsuario" id="txtNombreUsuario" minlength="1" required placeholder="Ingrese el nombre de usuario">
+            <label for="txtContraseña">Contraseña:</label>
+            <input type="password" name="txtContraseña" id="txtContraseña" minlength="1" required placeholder="*********">
+            <input class="btn btn-verde" value="ingresar" type="submit" name="btnEnviar" id="btnEnviar">
+            <input class="btn btn-rojo" value="limpiar" type="reset" name="btnLimpiar" id="btnLimpiar">
+        </form>
+    </div>
+    <section>
+        <h2 style="text-align: center;color:crimson;margin-top:10px;">
+            {{msg}}
+        </h2>
+    </section>
+</body>
+</html>

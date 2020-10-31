@@ -1,0 +1,52 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block nav%}
+<a href="#footer"><img src="{%static 'img/TelefonoNavegación.png'%}"></a>
+
+{%endblock nav%}
+{%block contenido%}
+<div id="section">
+    <div id="formulariousuario">
+        <form action="{%url 'PAG4'%}" method="post" onsubmit="return validarFormularioUsuario()">
+            {% csrf_token %}
+            <label for="txtNombre">Nombre:</label>
+            <input type="text" name="txtNombre" id="txtNombre" minlength="3" maxlength="80" required>
+            <label for="txtApellido">Apellido:</label>
+            <input type="text" name="txtApellido" id="txtApellido" minlength="3" maxlength="80" required>
+            <label for="txtEmail">Email:</label>
+            <input type="email" name="txtEmail" id="txtEmail" required>
+            <label for="txtNombreUsuario">Nombre de usuario:</label>
+            <input type="text" name="txtNombreUsuario" id="txtNombreUsuario" required>
+            <label for="txtContraseña1">Contraseña:</label>
+            <input type="password" name="txtContraseña1" id="txtContraseña1" required>
+            <label for="txtContraseña2">Repita la contraseña:</label>
+            <input type="password" name="txtContraseña2" id="txtContraseña2" required>
+
+            <input class="btn btn-verde" type="submit" name="btnEnviar" id="btnEnviar">
+            <input class="btn btn-rojo" type="reset" name="btnLimpiar" id="btnLimpiar">
+            
+        </form>
+    </div>
+    <section>
+        <h2 style="text-align: center;color:crimson;margin-top:10px;">
+            {{msg}}
+        </h2>
+
+    </section>
+
+</div>
+<div id="aside">
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/autolavado1.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/autolavado2.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/autolavado3.jpg'%}">
+    </div>
+    <div class="imágenesformulariousuario">
+        <img src="{%static 'img/autolavado4.jpg'%}">
+    </div>
+</div>
+{%endblock contenido%}

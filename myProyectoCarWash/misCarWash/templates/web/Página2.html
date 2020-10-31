@@ -1,0 +1,28 @@
+{%extends "web/plantilla.html"%}
+{%load static%}
+{%block nav%}
+<a href="#footer"><img src="{%static 'img/TelefonoNavegación.png'%}"></a>
+
+{%endblock nav%}
+{%block contenido%}
+{%for item in lista%}
+    <div id="section">
+        <h1 id="titulomisión">Misión</h1>
+        <div id="textomisión">
+            {{item.mision}}
+        </div>
+        <div id="imágenmisión">
+            <img src="{%static 'img/misión.jpg'%}">
+        </div>
+    </div>
+    <div id="aside">
+        <h1 id="titulovisión">Visión</h1>
+        <div id="textovisión">
+          {{item.vision}}
+        </div>
+        <div id="imágenvisión">
+            <img src="{%static 'img/visión.jpg'%}">
+        </div>
+    </div>
+    {%endfor%}
+{%endblock contenido%}
