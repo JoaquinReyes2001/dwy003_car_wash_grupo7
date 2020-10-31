@@ -12,9 +12,9 @@
         <form action="" method="post" onsubmit="">
             {% csrf_token %}
             <label for="txtNombreUsuario">Nombre de usuario:</label>
-            <input type="text" name="txtNombreUsuario" id="txtNombreUsuario" minlength="1" required placeholder="Ingrese el nombre de usuario">
+            <input type="text" name="txtNombreUsuario" id="txtNombreUsuario"  required placeholder="Ingrese el nombre de usuario">
             <label for="txtContraseña">Contraseña:</label>
-            <input type="password" name="txtContraseña" id="txtContraseña" minlength="1" required placeholder="*********">
+            <input type="password" name="txtContraseña" id="txtContraseña" required placeholder="*********">
             <input class="btn btn-verde" value="ingresar" type="submit" name="btnEnviar" id="btnEnviar">
             <input class="btn btn-rojo" value="limpiar" type="reset" name="btnLimpiar" id="btnLimpiar">
         </form>
