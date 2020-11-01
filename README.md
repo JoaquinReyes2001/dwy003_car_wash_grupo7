@@ -65,7 +65,7 @@ Se registran datos de manera correcta para que los grabe y nos retorne un valor,
 Datos:
 "Joaquín","Reyes","joacoantonio@hotmail.com","joaquinreyes2001","micontraseñacar123".
 Resultado Esperado:
-Tras realizar el grabado del usuario y que este tenga almacenamiento en la base de datos, no debera retornar un valor entero igual a 1 y un 0 en caso contrario.
+Tras realizar el grabado del usuario y que este tenga almacenamiento en la base de datos, nos debera retornar un valor entero igual a  1 y un 0 en caso contrario.
 Resultado obtenido:
 El método nos retorna un 1.
 
